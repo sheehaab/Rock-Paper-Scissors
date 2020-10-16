@@ -53,7 +53,7 @@
 			function game(){
 				let pcScore = 0;
 				let playerScore=0;
-				while( pcScore <= 5 || playerScore <= 5){
+				while(pcScore < 5 && playerScore < 5){
 					let player = prompt('choose player');
 					let pc = computerPlay();
 					player = player.toLowerCase();
