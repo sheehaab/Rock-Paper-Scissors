@@ -1,0 +1,220 @@
+body{
+	background-color: #fadcac;
+	color:#065446;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 50px
+}
+
+.container .who-wins{
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.container .who-wins .who{
+	font-size:1.5em;
+	margin:0;
+}
+
+.container .who-wins .play-again{
+	background-color:#197163;
+	color:#FFFD;
+	border:none;
+	padding:10px;
+	border-radius:20px;
+	margin-top:5px;
+	cursor:pointer;	
+}
+
+.container .who-wins .play-again:hover{
+
+}
+
+
+
+.container .inner-contaier{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.container .section1{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width:450px;
+	height:500px;
+}
+
+.container h1{
+	font-size:5em;
+}
+
+.container .section2{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width:450px;
+	height:500px;
+}
+
+.container .section1 .player{
+	border: 1px solid #a7ad03;
+	border-radius: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	margin-left: 40px;
+	background-color: #197163;
+	-webkit-box-shadow: 2px 0px 25px -7px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 0px 25px -7px rgba(0,0,0,1);
+	box-shadow: 2px 0px 25px -7px rgba(0,0,0,1);
+}
+
+.container .section1 .player h5{
+	position:absolute;
+	top:135px;
+	font-size:2em;
+	color:#FFFD;
+}
+
+.container .section2 .pc h5{
+	position:absolute;
+	top:135px;
+	font-size:2em;
+	color:#FFFD;
+}
+
+.container .section2 .pc{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	margin-right: 40px;
+	background-color: #197163;
+	-webkit-box-shadow: 2px 0px 25px -7px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 0px 25px -7px rgba(0,0,0,1);
+	box-shadow: 2px 0px 25px -7px rgba(0,0,0,1);
+	border: 1px solid #a7ad03;
+	border-radius: 50%;
+
+}
+
+
+
+.container .player .three-hands{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+}
+
+.container .player .three-hands button{
+	border:1px solid #197163;
+	height:28%;
+	width:25%;
+	margin:0 10px 0 10px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:none;
+	transition: all .1s ease-in-out;
+
+}
+
+.container .player .three-hands button:hover{
+	background-color:#065446;
+	cursor: pointer;
+	transform: scale(1.1);
+	border:.5px solid gold;
+}
+
+.container .player .three-hands button:first-child{
+	padding-right:17px;
+}
+
+.container .player .three-hands button img{
+	height:100%;
+	width:200px;
+
+}
+
+.container .pc .three-hands2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+}
+
+.container .pc .three-hands2 button{
+	border:1px solid #197163;
+	height:28%;
+	width:25%;
+	margin:0 10px 0 10px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	transition: all .1s ease-in-out;
+}
+
+.container .pc .three-hands2 button:first-child{
+	padding-right:17px;
+}
+
+.container .pc .three-hands2 button img{
+	height:100%;
+	width:200px;
+	border:none;
+	border-radius: 50%;
+}
+
+
+
+
+.container .section1 .score{
+	display: flex;
+	align-items: center;
+	margin-left:8%;
+}
+
+.container .section2 .score2{
+	display: flex;
+	align-items: center;
+	margin-right:8%;
+}
+
+
+.pcWinner{
+	background-color:#065446;
+	cursor: pointer;
+	transform: scale(1.5);
+	border:.5px solid gold;
+}
+
+.hidden{
+	display: none;
+}

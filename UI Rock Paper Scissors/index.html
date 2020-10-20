@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Rock,Paper,Scissors</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/normalaize.css">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<!-- the container that takes all the elements in and make the main syles by flex box is column-->
+
+		<div class="container">
+			<!-- this is container to make the three items below is flex row-->
+			<div class="inner-contaier">
+			<!-- this is the section of the player-->
+			<div class="section1">
+				<div class="score">
+				<h3>Score:</h3>
+				<span class="player-score">0</span>
+				</div>
+				<div class="player">
+
+					<h5 class="player-h5">Player</h5>
+
+					<div class="three-hands">
+						<button id="paper-btn-player" class="player-btn"><img src="images/paper.png" alt="" id='img-paper'></button>
+						<button id="rock-btn-player" class="player-btn"><img src="images/rock.png" alt="" id='img-rock'></button>
+						<button id="scissors-btn-player" class="player-btn"><img src="images/scissors.png" alt="" id='img-scissors'></button>
+
+					</div>
+				</div>
+			</div>
+			
+			<!-- this is the vs in the middle-->
+			<h1>VS</h1>
+
+			<!--this is the pc section-->
+			<div class="section2">
+				<div class="score2">
+				<h3>Score:</h3>
+				<span class="pc-score">0</span>
+				</div>
+				<div class="pc">
+
+					<h5>PC</h5>
+					<div class="three-hands2">
+						<button id="paper-btn-pc" disabled><img src="images/paper.png" alt=""></button>
+						<button id="rock-btn-pc" disabled><img src="images/rock.png" alt=""></button>
+						<button id="scissors-btn-pc" disabled><img src="images/scissors.png" alt=""></button>
+
+					</div>
+				</div>
+			</div>
+			</div>
+
+			<!-- Massage appear when player or pc wins the rounds-->
+			<div class="who-wins">
+				<p class="who">Start!</p>
+				<button class='play-again hidden'>Press here to play again</button>
+
+			</div>
+
+		</div>
+
+		
+		<!-- javaScript linking to HTML-->
+		<script src="js/script2.js"></script>
+	</body>
+</html>
